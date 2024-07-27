@@ -1,2 +1,4 @@
 # dockerCommand
-docker
+
+## docker 목록
+  docker ps
