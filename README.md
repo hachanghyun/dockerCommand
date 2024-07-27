@@ -1,11 +1,28 @@
 # dockerCommand
 
-## docker 컨테이너 실행중인 목록
+## docker 컨테이너 실행중인 목록 조회
     docker ps
 
 ## docker에서 컨테이너 실행 or pull받아와서 실행
     docker run nginx
 
-## docker 컨테이너 실행중 & 이전에 멈춘 컨테이너 목록
+## docker 컨테이너 실행중 & 이전에 멈춘 컨테이너 목록 조회
     docker ps -a
+
+## docker 컨테이너 stop
+    docker stop silly_samment(names)
+
+## docker contaioner remove
+    docker rm silly_sammet
+
+## docker image list
+    docker images
+
+## docker remove images
+    docker rmi nginx
+
+## download an image
+    docker pull nginx
+
+## 
 
