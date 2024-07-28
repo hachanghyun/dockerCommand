@@ -24,5 +24,17 @@
 ## download an image
     docker pull nginx
 
-## 
+## docker append a command 
+    dockcer rum ubuntu sleep 5
+
+## execute a command 
+    docker exec distracted_mcclintock cat /etc/host
+
+## attach and detach
+    docker run kodekloud/simple-webapp
+
+## background docker container execute
+    docker run -d kodekloud/simple-webapp
+
+
 
