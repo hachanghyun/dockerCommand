@@ -10,7 +10,7 @@
     docker ps -a
 
 ## docker 컨테이너 stop
-    docker stop silly_samment(names)
+    docker stop silly_samment(names or container id)
 
 ## docker contaioner remove
     docker rm silly_sammet
@@ -35,6 +35,13 @@
 
 ## background docker container execute
     docker run -d kodekloud/simple-webapp
+
+## 도커 컨테이너를 가져오고 그 컨테이너 bash로 이동
+    docker run -it centos bash
+
+## 도커 컨테이너 20초동안만 실행하고 백그라운드(-d)로 실행
+    docker run -d centos sleep 20
+
 
 
 
