@@ -42,6 +42,10 @@
 ## 도커 컨테이너 20초동안만 실행하고 백그라운드(-d)로 실행
     docker run -d centos sleep 20
 
+## 도커 Run -tag
+    docker run redis
+    docker run redis:4.0
+
 
 
 
